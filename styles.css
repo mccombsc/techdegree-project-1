@@ -114,6 +114,8 @@ header .profile-image:hover {
   color: #020d10;
   border-radius: 6px;
   transition: all .5s;
+  flex: 1 0;
+min-height: 0;
 }
 .card:hover {
   border-color: #2c3f43;
@@ -130,19 +132,13 @@ header .profile-image:hover {
   padding-top: 250px;
 }
 .c-background {
-  background: url('images/card_computer.jpg') no-repeat top center;
-  background-size: cover 200px;
-  background-color: #ffffff;
+  background: url('images/card_computer.jpg') #ffffff no-repeat top center;
 }
 .c-goals {
-  background: url('images/card_wireframes.jpg') no-repeat top center;
-  background-size: cover 200px;
-  background-color: #ffffff;
+  background: url('images/card_wireframes.jpg') #ffffff no-repeat top center;
 }
 .c-skills {
-  background: url('images/card_meetings.jpg') no-repeat top center;
-  background-size: cover 200px;
-  background-color: #ffffff;
+  background: url('images/card_meetings.jpg') #ffffff no-repeat top center;
 }
 
 ul.skills {
