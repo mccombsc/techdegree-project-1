@@ -173,7 +173,6 @@ a.social {
   background-size: 30px 30px;
   opacity: 1;
   transition: all .5s;
-  filter: grayscale();
 }
 a.twitter {
   background-image: url(images/twitter.svg);
