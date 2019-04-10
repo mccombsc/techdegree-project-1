@@ -126,6 +126,25 @@ header .profile-image:hover {
   font-style: italic;
 }
 
+.home .card {
+  padding-top: 250px;
+}
+.c-background {
+  background: url('images/card_computer.jpg') no-repeat top center;
+  background-size: cover 200px;
+  background-color: #ffffff;
+}
+.c-goals {
+  background: url('images/card_wireframes.jpg') no-repeat top center;
+  background-size: cover 200px;
+  background-color: #ffffff;
+}
+.c-skills {
+  background: url('images/card_meetings.jpg') no-repeat top center;
+  background-size: cover 200px;
+  background-color: #ffffff;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -234,6 +253,9 @@ a.social:hover {
   }
   .nav .name {
     margin: 0 auto;
+  }
+  .card {
+    margin: 30px auto;
   }
 }
 
