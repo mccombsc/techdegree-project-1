@@ -131,6 +131,11 @@ min-height: 0;
 .home .card {
   padding-top: 250px;
 }
+
+/*
+  The background images used in the home page cards
+  were gathered via unsplash.com and edited by me in photoshop.
+*/
 .c-background {
   background: url('images/card_computer.jpg') #ffffff no-repeat top center;
 }
